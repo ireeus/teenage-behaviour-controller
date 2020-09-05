@@ -17,7 +17,7 @@ void sound() {
       delay(5);
     }
     int soundsens2 = 0;
-    soundsens2 = soundsens + 40;
+    soundsens2 = soundsens + 44;
     if (soundsens2 >= threshold) {
       digitalWrite(ledpin2, HIGH); //turns led
       delay(5);
