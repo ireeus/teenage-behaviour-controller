@@ -1,3 +1,11 @@
+//SHOUT DOWN
+//This software/hardware allows to controll noise of the older child when your new born needs to sleep.
+//It is monitoring the noise level of the room where the older child resisdes and in case of the noise is increase the device will warn by flashing LED's (green, yellow)
+// and if that's not helping the red LED will come up an shut down the power of the connected devices.
+// REQUIRED :
+// Arduino uno, KY-037,   irf540, relay or switch, 12V PSU, few cables and 3 LEDS 
+
+
 const int switchpin = 10; // ledpin and soundpin are not changed throughout the process
 const int ledpin1 = 9; // ledpin and soundpin are not changed throughout the process
 const int ledpin2 = 3; // ledpin and soundpin are not changed throughout the process
